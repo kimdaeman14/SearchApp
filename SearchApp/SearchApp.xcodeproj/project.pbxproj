@@ -12,6 +12,10 @@
 		A77A570C215C020A0001CF96 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A77A570A215C020A0001CF96 /* Main.storyboard */; };
 		A77A570E215C020B0001CF96 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A77A570D215C020B0001CF96 /* Assets.xcassets */; };
 		A77A5711215C020B0001CF96 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A77A570F215C020B0001CF96 /* LaunchScreen.storyboard */; };
+		A77A571A215C085E0001CF96 /* HistoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A77A5718215C085E0001CF96 /* HistoryCell.swift */; };
+		A77A571B215C085E0001CF96 /* HistoryCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A77A5719215C085E0001CF96 /* HistoryCell.xib */; };
+		A77A571E215C08790001CF96 /* SearchResultCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A77A571C215C08790001CF96 /* SearchResultCell.swift */; };
+		A77A571F215C08790001CF96 /* SearchResultCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A77A571D215C08790001CF96 /* SearchResultCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		A77A570D215C020B0001CF96 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A77A5710215C020B0001CF96 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A77A5712215C020B0001CF96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A77A5718215C085E0001CF96 /* HistoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryCell.swift; sourceTree = "<group>"; };
+		A77A5719215C085E0001CF96 /* HistoryCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HistoryCell.xib; sourceTree = "<group>"; };
+		A77A571C215C08790001CF96 /* SearchResultCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultCell.swift; sourceTree = "<group>"; };
+		A77A571D215C08790001CF96 /* SearchResultCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SearchResultCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +68,10 @@
 				A77A570D215C020B0001CF96 /* Assets.xcassets */,
 				A77A570F215C020B0001CF96 /* LaunchScreen.storyboard */,
 				A77A5712215C020B0001CF96 /* Info.plist */,
+				A77A5718215C085E0001CF96 /* HistoryCell.swift */,
+				A77A5719215C085E0001CF96 /* HistoryCell.xib */,
+				A77A571C215C08790001CF96 /* SearchResultCell.swift */,
+				A77A571D215C08790001CF96 /* SearchResultCell.xib */,
 			);
 			path = SearchApp;
 			sourceTree = "<group>";
@@ -123,7 +135,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				A77A5711215C020B0001CF96 /* LaunchScreen.storyboard in Resources */,
+				A77A571F215C08790001CF96 /* SearchResultCell.xib in Resources */,
 				A77A570E215C020B0001CF96 /* Assets.xcassets in Resources */,
+				A77A571B215C085E0001CF96 /* HistoryCell.xib in Resources */,
 				A77A570C215C020A0001CF96 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -135,7 +149,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A77A571A215C085E0001CF96 /* HistoryCell.swift in Sources */,
 				A77A5709215C020A0001CF96 /* ViewController.swift in Sources */,
+				A77A571E215C08790001CF96 /* SearchResultCell.swift in Sources */,
 				A77A5707215C020A0001CF96 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
